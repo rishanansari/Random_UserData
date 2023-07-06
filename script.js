@@ -14,7 +14,7 @@ let mapBtn = document.getElementById("map");
 let phoneBtn = document.getElementById("phone");
 let lockBtn = document.getElementById("lock");
 
-let gender = prompt("Please Enter the Gender male/female").toLocaleLowerCase();
+let gender = prompt("Please Enter the Gender male/female.If not it will show random user").toLocaleLowerCase();
 let url = `https://randomuser.me/api/?gender=${gender}`;
 
 
